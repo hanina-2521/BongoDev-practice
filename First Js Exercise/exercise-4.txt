@@ -1,0 +1,8 @@
+function calculateAge(age1, age2) {
+  if (age1 > age2) return 'Rahim'
+  else if (age1 < age2) return 'karim'
+  else return 'none'
+}
+let ageOfRahim = 30
+let ageOfkarim = 19
+console.log(`the elder brother is ${calculateAge(ageOfRahim, ageOfkarim)}`)

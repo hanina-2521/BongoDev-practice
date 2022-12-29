@@ -1,0 +1,8 @@
+function isLandscape(w, h) {
+  if (w > h) return 'Landscape'
+  else return 'portrait'
+
+}
+let weight = 100;
+let height = 200;
+console.log(`the image is ${isLandscape(weight, height)}`)

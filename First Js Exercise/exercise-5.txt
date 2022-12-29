@@ -1,0 +1,6 @@
+let s = [3, 5, 1, 9, 7, 2, 8]
+for (i in s) {
+  if (s[i] == 7) {
+    console.log(`the index of 7 is ${i}`)
+  }
+}

@@ -1,0 +1,6 @@
+let x = 'hello'
+let y = 'there'
+x = 'hola'
+y = 'Nure'
+console.log(x)
+console.log(y)

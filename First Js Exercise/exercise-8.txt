@@ -1,0 +1,10 @@
+function fizzBuzz(num) {
+  let a = ''
+  if (num % 3 === 0) a += 'Fizz'
+  if (num % 5 === 0) a += 'Buzz'
+  if (a === '') return 'Not a Fizz-buzz number'
+  else return a
+}
+
+let number = 15
+console.log(fizzBuzz(number))

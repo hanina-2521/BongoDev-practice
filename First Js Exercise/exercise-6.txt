@@ -1,0 +1,8 @@
+const s = [3, 5, 1, 9, 7, 2, 8]
+
+
+s.sort(function(a, b) {
+  return a - b;
+})
+
+console.log(s)
